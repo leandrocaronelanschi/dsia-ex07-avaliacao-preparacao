@@ -1,0 +1,12 @@
+{
+  "origem": "Caso sintético deste estudo piloto; não é colheita-mini.",
+  "problema": "Lista vazia causa divisão por zero; rejeitar notas fora de 0 a 10.",
+  "arquivos": {
+    "notas.py": "def media(notas):\n    return sum(notas)/len(notas)\n"
+  },
+  "criterios": [
+    "Lista vazia gera ValueError",
+    "Nota negativa ou maior que 10 gera ValueError",
+    "[6,8] retorna 7"
+  ]
+}

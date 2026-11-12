@@ -1,0 +1,12 @@
+{
+  "origem": "Caso sintético deste estudo piloto; não é colheita-mini.",
+  "problema": "Tornar explícito o tratamento de divisor zero.",
+  "arquivos": {
+    "divisao.py": "def dividir(a,b):\n    return a/b\n"
+  },
+  "criterios": [
+    "Divisor zero gera ValueError",
+    "10 dividido por 2 retorna 5",
+    "-6 dividido por 2 retorna -3"
+  ]
+}

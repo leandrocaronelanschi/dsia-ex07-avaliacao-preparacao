@@ -1,0 +1,12 @@
+{
+  "origem": "Caso sintético deste estudo piloto; não é colheita-mini.",
+  "problema": "Rejeitar peso e preço negativos.",
+  "arquivos": {
+    "pagamento.py": "def calcular_pagamento(peso, preco):\n    return peso * preco\n"
+  },
+  "criterios": [
+    "Peso ou preço negativo gera ValueError",
+    "10 vezes 2 retorna 20",
+    "Zero retorna zero"
+  ]
+}
